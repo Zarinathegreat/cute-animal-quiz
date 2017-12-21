@@ -1,0 +1,230 @@
+html {
+  background: #CAE1FF;
+  color: #333;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+body{
+  font-size:100%;
+}
+
+.brand{
+  display:block;
+  text-align:center;
+}
+  .brand--top {
+  margin-top:0;
+  }
+
+.brand-img{
+  display: block;
+  margin: -55px auto;
+}
+.question{
+text-align: center;
+letter-spacing: 1px;
+color:#68228B;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+h1{
+  font-weight:lighter;
+ font-family:'Crafty Girls', cursive;
+}
+.main{
+  width:800px;
+  height:600px;
+  display:block;
+  margin:5px auto;
+  }
+.intro{
+  padding: 1.25em;
+  position: relative;
+  border-radius:20px;
+  background:#fff;
+  margin-top: 40px;
+}
+
+.card{
+  padding: 1.25em;
+  position: relative;
+  border-radius:20px;
+  background:#fff;
+  margin-top: 40px;
+}
+
+.about{
+  margin-bottom:2.5em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.animalList {
+  list-style-type: none;
+  margin-bottom: 1.25em;
+  padding: 0;
+}
+
+.animalList-item {
+  display: inline-block;
+  position: relative;
+  padding:20px 5px;
+}
+
+.animalList-item img {
+  display:block;
+  margin: 0 auto 0.625em;
+    width: 182.25px;
+    height:168.19px;
+
+}
+@media screen and (min-width: 500px) {
+  .animalList-item img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .animalList-item {
+    float: left;
+    min-height: 210px;
+    width: 23%;
+  }
+  .animalList-item img {
+    left: 50%;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 90%;
+  }
+}
+
+.tac{
+  text-align: center;
+}
+.btn{
+background: #CAE1FF;
+border:2px solid rgba(0, 0, 0, 0.1);
+border-radius: 40px;
+cursor:pointer;
+color:#68228B;
+display: inline-block;
+font-weight: bold;
+font-size: 16px;
+line-height:2;
+overflow: hidden;
+padding: 0 1.3em;
+text-decoration: none;
+}
+
+a.btn {
+  margin-left: 20px;
+}
+
+/*Quiz Page*/
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align:left;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.has-answer {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 1.25em;
+  padding: 0;
+}
+
+.answer{
+  text-align:left;
+  margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+ .answer-link{
+    text-decoration: none;
+    color:#000;
+    font-size: 17px;
+    font-weight:bold;
+    line-height: 3;
+    border:2px solid #BCD2EE;
+    border-radius: 6px;
+    display: block;
+    padding: 0.2em;
+    padding-left: 2.5em;
+    margin:3px 2px 3px 2px;
+     position: relative;
+    }
+
+.answer-link.is-selected::before {
+    background: #6495ED;
+}
+
+.answer-link.is-selected, .answer-link:active, .answer-link:focus, .answer-link:hover {
+    border-color: #6495ED;
+  }
+
+  .answer-link::before {
+      background: #ddd;
+      border-radius: 50%;
+      content: '';
+      display: block;
+      height: 20px;
+      left: .625em;
+      position: absolute;
+      top: 34%;
+      width: 20px;
+}
+
+/*Answer Page*/
+.bucket{
+  display:table;
+  padding:15px;
+}
+
+.bucket-media{
+  float:left;
+  margin-bottom:0;
+   margin-right: 1.25em;
+}
+.bucket-media > img {
+  display: block;
+  margin-bottom: 1.25em;
+  max-width: none;
+}
+.bucket-content{
+  display: table-cell;
+  vertical-align:middle;
+}
+.character-description{
+  font-size:18px;
+  text-align: justify;
+}
+.share-message{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 1.25em;
+}
+.shared-card{
+  border: 2px solid #ddd;
+}
+
+.share{
+  text-align: center;
+}
+.share-link{
+  margin-bottom: 0.625em;
+  text-align: center;
+}
+.btn--b{
+  width:112px;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+  background: #B0C4DE;
+  color: #4B0082;
